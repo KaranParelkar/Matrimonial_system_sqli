@@ -2,7 +2,8 @@
 
 **Severity:** Critical 
 
-**Researcher:** Karan Parelkar
+**Researcher 1 :** Karan Parelkar
+**Researcher 2 :** Anubhav Verma
 
 **Executive Summary**
 
@@ -374,10 +375,19 @@ function writepartnerprefs($id)
 • OWASP SQL Injection Prevention Cheat Sheet  
 • OWASP Top 10 2021 – Injection  
 
-**Researcher Information**
+**Researchers Information**
+
+**Researcher - 1**
 
 Name: Karan Parelkar 
 Independent Security Researcher 
 Email: karan.parelkar2005@gmail.com 
 GitHub: https://github.com/KaranParelkar 
 LinkedIn: https://www.linkedin.com/in/karan-parelkar-6a370125b/
+
+**Researcher - 2**
+Name: Anubhav Verma
+Independent Security Researcher 
+Email: avdzav10@gmail.com
+GitHub: https://github.com/anubhavv106
+LinkedIn: https://www.linkedin.com/in/anubhav-verma-7123a1232/
