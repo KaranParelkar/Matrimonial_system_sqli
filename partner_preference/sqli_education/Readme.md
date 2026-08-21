@@ -3,6 +3,7 @@
 **Severity:** Critical 
 
 **Researcher 1 :** Karan Parelkar
+
 **Researcher 2 :** Anubhav Verma
 
 **Executive Summary**
@@ -386,6 +387,7 @@ GitHub: https://github.com/KaranParelkar
 LinkedIn: https://www.linkedin.com/in/karan-parelkar-6a370125b/
 
 **Researcher - 2**
+
 Name: Anubhav Verma
 Independent Security Researcher 
 Email: avdzav10@gmail.com
