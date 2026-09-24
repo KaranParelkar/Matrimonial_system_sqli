@@ -18,16 +18,27 @@ The credentials are accessible by simply downloading and opening the SQL file, w
 
 **Steps to Reproduce**
 
-Set up the project and go to http://localhost/online-matrimonial-project-in-php-master/ we can see the project is locally deployed 
+Set up the project and go to http://localhost/online-matrimonial-project-in-php-master/ we can see the project is locally deployed
+
+![poc](images/info_1.png)
  
 1. Navigate to /db/
+
+![poc](images/info_2.png)
  
 2. Click on matrimony.sql
     
+![poc](images/info_3.png)
 
 3. Open matrimony.sql in VS Code or any text editor.
+
+    ![poc](images/info_4.png)
     
 4. Sensitive Users PII data such as Date of birth, gender, email, etc. and Credential information can be observed directly in the SQL dump with password
+
+    ![poc](images/info_4.png)
+    
+    ![poc](images/info_5.png)
  
 **Impact:**
 
