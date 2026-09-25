@@ -2,6 +2,8 @@
 
 **Severity:** Critical 
 
+**Accepted: CVE-2026-92926**
+
 **Researcher 1 :** Karan Parelkar
 
 **Researcher 2 :** Anubhav Verma
